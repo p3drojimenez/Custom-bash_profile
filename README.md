@@ -36,3 +36,29 @@ alias showBlocked='sudo ipfw list'                  # showBlocked:  All ipfw rul
 alias f='open -a Finder ./'                 # f:            Opens current directory in MacOS Finder
 alias ~="cd ~"                              # ~:            Go Home
 alias c='clear'                             # c:            Clear terminal display
+```
+
+## Reload .bash_profile
+Every time that you update .bash_profile, you must to run ``source ~/.bash_profile `` to reload de configuration in the current shell
+
+```
+cd ~
+source ~/.bash_profile
+```
+
+ ## How to show your custom aliases
+ 
+ Two ways to do that:
+ 
+ 1- Just run ``alias`` in your shell
+ 
+ ```
+ alias
+ ```
+ 
+ 2- Run ``cat & grep ``
+ 
+ ```
+ cat ~/.bash_profile | grep 'alias'
+ ```
+
