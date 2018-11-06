@@ -1,4 +1,9 @@
-# Custom .bash_profile
+# My custom .bash_profile
+
+This is my custom .bash_profile with **shortcuts and tools**.  Probably you will realise that there are some shortcuts commented. That is because currently I don't use them, but I don't want to avoid them from there.
+
+> If you have any question, please visit my website and send me an email ;)
+https://pedrojimenez.info
 
 ## Installing
 
