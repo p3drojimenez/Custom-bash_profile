@@ -12,8 +12,9 @@ Download or copy the file .bash_profile in your root user profile: `` cd ~ ``.
 
 ```
 cd ~
-wget https://raw.githubusercontent.com/p3drojimenez/Custom-bash_profile/master/.bash_profile
+curl https://raw.githubusercontent.com/p3drojimenez/Custom-bash_profile/master/.bash_profile -o .bash_profile
 ```
+
 ## Alias
 ```
 alias myip='curl ip.appspot.com'                    # myip:         Public facing IP Address
